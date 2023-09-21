@@ -10,7 +10,7 @@ import Footer from "./components/Footer/Footer"
 function App() {
 
   return (
-    <div className="bg-gradient-to-r from-gray-900 via-purple-900 to-violet-600 transition-all">
+    <div className="bg-gradient-to-r from-gray-900 via-purple-900 to-violet-600 transition-all font-roboto1">
     <Navbar />
     <Routes>
       <Route path="/" element={<Home />}/>

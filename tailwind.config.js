@@ -6,7 +6,12 @@ export default {
   ],
 
   theme: {
-    extend: {},
+    extend: 
+    {
+      fontFamily:{
+        'roboto1':['Roboto Slab', 'serif']
+      }
+    },
   },
   plugins: [],
 }
